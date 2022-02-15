@@ -1,5 +1,7 @@
 # Decomposition of large-scale CVRP Instances
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6097671.svg)](https://doi.org/10.5281/zenodo.6097671)
+
 This repository presents a proof-of-concept for including instance decomposition within two popular metaheuristics for the Capacitated Vehicle Routing Problem (CVRP):
 * The Adaptive Large Neighbourhood Search of Stefan Ropke
 * The Hybrid Genetic Algorithm of Thibaut Vidal
