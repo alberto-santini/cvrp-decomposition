@@ -1,0 +1,36 @@
+// ************************************************************************
+// *** Generic PALNS parameters                                         ***
+// ************************************************************************
+
+// Maximum number of iterations in the "real" run. (Integer)
+MaxIter = { 10000 }
+
+// Timeout in seconds. (Integer)
+TimeoutSec = { 1200 }
+
+// Score to assign to a destroy/repair method that lead to an accepted solution. (Double)
+ALNSScoreAccepted = { 2 }
+
+// Score to assign to a destroy/repair method that lead to an improved solution. (Double)
+ALNSScoreImproved = { 4 }
+
+// Score to assign to a destroy/repair method that lead to a new global best solution. (Double)
+ALNSScoreGlobalBest = { 10 }
+
+// Determines how quickly the weight adaptation algorithm reacts to changes in the destroy/repair method scores.
+// The closer the number is to 1 the slower the reaction is. (Double in the interval [0;1])
+ALNSDecay = { 0.99 }
+
+// ************************************************************************
+// *** Acceptance criterion: RECORD DEVIATION                           ***
+// ************************************************************************
+
+// This is the initial deviation /acceptance gap/ (e.g. 0.1 == 10%)
+StartDeviation = { 0.0167 }
+
+// ************************************************************************
+// *** Decomposition                                                    ***
+// ************************************************************************
+
+UseDecomposition = { 1 }
+// Code must fill: DecompositionMethod, DecompositionIters, DecompositionSize
