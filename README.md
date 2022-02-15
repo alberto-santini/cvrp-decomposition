@@ -26,6 +26,7 @@ You can cite this repository itself through Zenodo:
     year=2022,
     doi={10.5281/zenodo.6097671},
     url={https://github.com/alberto-santini/cvrp-decomposition}
+}
 ```
 
 ## Authors
