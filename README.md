@@ -17,6 +17,17 @@ We propose several decomposition techniques, which we describe in detail in our 
 }
 ```
 
+You can cite this repository itself through Zenodo:
+
+```
+@article{cvrp_decomposition_2022,
+    title={Repository cvrp-decomposition},
+    author={Alberto Santini},
+    year=2022,
+    doi={10.5281/zenodo.6097671},
+    url={https://github.com/alberto-santini/cvrp-decomposition}
+```
+
 ## Authors
 
 The original ALNS code is by Stefan Ropke.
