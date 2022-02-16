@@ -37,15 +37,15 @@ Alberto Santini then edited Stefan's code and implemented instance decomposition
 The original paper in which Stefan introduced ALNS is the following:
 
 ```
-@article{Ropke2006a,
-    title={A unified heuristic for a large class of vehicle routing problems with backhauls},
+@article{ropke_2006,
+    title={An adaptive large neighborhood search heuristic for the pickup and delivery problem with time windows},
     author={Ropke, Stefan and Pisinger, David},
     year=2006,
-    journal={European Journal of Operational Research},
-    volume=171,
-    number=3,
-    pages={750--775},
-    doi={10.1016/j.ejor.2004.09.004}
+    journal={Transportation Science},
+    volume=40,
+    number=4,
+    pages={455--472},
+    doi={10.1287/trsc.1050.0135}
 }
 ```
 
