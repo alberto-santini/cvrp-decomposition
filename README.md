@@ -8,7 +8,7 @@ This repository presents a proof-of-concept for including instance decomposition
 
 We propose several decomposition techniques, which we describe in detail in our preprint:
 
-```
+```bib
 @techreport{cvrp_decomposition,
     title={Decomposition strategies for vehicle routing heuristics},
     author={Santini, Alberto and Schneider, Michael and Vidal, Thibaut and Vigo, Daniele},
@@ -19,7 +19,7 @@ We propose several decomposition techniques, which we describe in detail in our 
 
 You can cite this repository itself through Zenodo:
 
-```
+```bib
 @article{cvrp_decomposition_2022,
     title={Repository cvrp-decomposition},
     author={Alberto Santini},
@@ -36,7 +36,7 @@ Stefan wrote most of the code contained in directory `src/alns`.
 Alberto Santini then edited Stefan's code and implemented instance decomposition.
 The original paper in which Stefan introduced ALNS is the following:
 
-```
+```bib
 @article{ropke_2006,
     title={An adaptive large neighborhood search heuristic for the pickup and delivery problem with time windows},
     author={Ropke, Stefan and Pisinger, David},
@@ -53,7 +53,7 @@ The original HGS code is by Thibaut Vidal.
 Thibaut also released his code in repository [vidalt/HGS-CVRP](https://github.com/vidalt/HGS-CVRP) and through the below paper.
 Alberto Santini then edited Thibaut's code and implemented instance decomposition.
 
-```
+```bib
 @article{vidal_2022,
     title={Hybrid genetic search for the CVRP: Open-source implementation and SWAP\textsupersctipt{*} neighborhood},
     author={Vidal, Thibaut},
