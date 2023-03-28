@@ -6,14 +6,16 @@ This repository presents a proof-of-concept for including instance decomposition
 * The Adaptive Large Neighbourhood Search of Stefan Ropke
 * The Hybrid Genetic Algorithm of Thibaut Vidal
 
-We propose several decomposition techniques, which we describe in detail in our preprint:
+We propose several decomposition techniques, which we describe in detail in our paper:
 
 ```bib
-@techreport{cvrp_decomposition,
+@article{cvrp_decomposition,
     title={Decomposition strategies for vehicle routing heuristics},
     author={Santini, Alberto and Schneider, Michael and Vidal, Thibaut and Vigo, Daniele},
-    year=2022,
-    url={https://santini.in/files/papers/santini-schneider-vidal-vigo-2022.pdf}
+    year=2023,
+    doi={10.1287/ijoc.2023.1288},
+    journal={{INFORMS Journal on Computing}},
+    pubstate={to appear}
 }
 ```
 
@@ -84,7 +86,7 @@ $ make
 Instances contained in folder `data` are part of the so-called "Uchoa dataset".
 We refer to the following paper for further information on their generation and characteristics:
 
-```
+```bib
 @article{uchoa_2017,
     title={New benchmark instances for the capacitated vehicle routing problem},
     author={Uchoa, Eduardo and Pecin, Diego and Pessoa, Artur and Poggi, Marcus and Vidal, Thibaut and Subramanian, Anand},
