@@ -34,3 +34,7 @@ preferred-citation:
   journal: "INFORMS Journal on Computation"
   title: "Decomposition Strategies for Vehicle Routing Heuristics"
   year: 2023
+  volume: 35
+  number: 3
+  start: 543
+  end: 559
