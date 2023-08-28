@@ -15,7 +15,9 @@ We propose several decomposition techniques, which we describe in detail in our 
     year=2023,
     doi={10.1287/ijoc.2023.1288},
     journal={{INFORMS Journal on Computing}},
-    pubstate={to appear}
+    volume=35,
+    number=3,
+    pages={543--559}
 }
 ```
 
