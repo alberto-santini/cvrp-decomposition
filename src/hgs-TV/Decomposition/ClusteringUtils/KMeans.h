@@ -141,8 +141,10 @@ namespace genvrp {
                 double dsq = distSq(pt, centres.back());
 
                 for(auto i = 0u; i < centres.size() - 1u; ++i) {
-                    if(distSq(pt, centres[i]) < dsq) {
+                    const double dsq_i = distSq(pt, centres[i]); 
+                    if(dsq_i < dsq) {
                         n = i;
+                        dsq = dsq_i;
                     }
                 }
 
